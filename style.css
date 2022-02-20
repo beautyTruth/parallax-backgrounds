@@ -15,6 +15,7 @@ html {
 body {
   background: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -24,4 +25,22 @@ canvas {
   width: 80rem;
   height: 70rem;
   border: 0.3rem solid antiquewhite;
+}
+
+.container {
+  color: antiquewhite;
+  font-family: Futura, Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 3rem 0 3rem 0;
+  display: flex;
+  width: 80rem;
+  flex-direction: column;
+}
+
+.slider {
+  margin-top: 3rem;
+  font-size: 4rem;
+  font-weight: 700;
+  max-width: 100%;
 }
